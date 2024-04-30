@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <!-- 000000000000000000000000000000000  header 00000000000000000000000000000000000 --> */
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+
+section {
+    width: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 90% !important;
+    margin: auto;
+}
+
+.row .logo h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.row .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li {
+    text-align: right;
+    padding: 23px !important;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.menu ul li a:hover {
+    color: black;
+}
+
+.banner{
+    /* position: relative; */
+    margin-top: -66px;
+    z-index: 0;
+    /* height: 500px; */
+}
+.top-text .banner-img{
+    width: 100%;
+    height: inherit;
+}
+
+.top-text .banner-img img{
+    object-fit: cover;
+    width: 100%;
+    padding: 0;
+    height: inherit;
+}
+.top-text .top-text-in-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0; 
+    height: 663px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.top-text p {
+    flex: 0 0 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+
+.top-text h2 {
+    flex: 0 0 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.top-text .btn {
+    color: black;
+    width: fit-content;
+    text-decoration: none;
+    padding: 6px 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px auto;
+    width: fit-content;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 1px;
+    font-size: 10px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+/* <!-- 000000000000000000000000000000000  main section 00000000000000000000000000000000000 --> */
+.main-section {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.main-section .content {
+    flex: 0 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section .paragh {
+    flex: 0 0 50%;
+}
+
+.main-section .img {
+    flex: 0 0 50%;
+}
+
+.main-section .img img {
+    max-width: 100%;
+}
+
+.main-section .content .paragh h1 {
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-section .content .paragh p {
+    padding: 10px 0;
+    color: #929292;
+}
+
+/* <!-- 000000000000000000000000000000000  section icone 00000000000000000000000000000000000 --> */
+.icone {
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+}
+
+.icone .container .row .main-fonts {
+    flex: 0 0 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.icone .container .row .main-fonts .img {
+    height: 54px;
+    width: 52px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 18px 7px;
+}
+
+.icone .container .row .main-fonts .img img {
+    max-width: 100%;
+}
+
+.icone .container .row .main-fonts .heading-paragh {
+    flex: 0 0 80%;
+}
+
+.icone .container .row .main-fonts .heading-paragh h1 {
+    font-size: 15px;
+}
+
+.icone .container .row .main-fonts .heading-paragh p {
+    font-size: 12px;
+}
+
+/* <!-- 000000000000000000000000000000000  clients 00000000000000000000000000000000000 --> */
+.clients-area {
+    width: 100%;
+    background-color: #fafafa;
+    margin-top: 30px;
+}
+
+.clients-area .container .row .paragh {
+    width: 100%;
+    margin: auto;
+}
+
+.clients-area .container .row .paragh h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.clients-area .container .row .paragh p {
+    text-align: center;
+    color: #929292;
+}
+
+.clients-area .container .row .content {
+    flex: 0 0 100%;
+    flex-flow: row wrap;
+    display: flex;
+    place-content: center space-around;
+    padding: 10px 20px;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.clients-area .container .row .content .left-clients {
+    flex: 0 0 70%;
+}
+
+.clients-area .container .row .content .left-clients .paragh-clients {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(128, 128, 128, 0.165);
+    padding: 20px;
+}
+
+/* <!-- 000000000000000000000000000000000  wordpress icone 00000000000000000000000000000000000 --> */
+.wordpress-row {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.wordpress-row .container .row .wordpress-img {
+    margin: auto;
+}
+
+.our-team {
+    width: 100%;
+    background-color: black;
+    margin-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.our-team .contaienr .row {
+    justify-content: center;
+}
+
+.our-team .our-team-heading {
+    flex: 0 0 100%;
+    margin-top: 30px;
+}
+
+.our-team .our-team-heading h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.our-team .our-team-heading p {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+}
+
+.our-team .our-team-img {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.imges img {
+    border-radius: 50%;
+}
+
+.our-team-img .our-icone img {
+    padding: 0 10px;
+    max-width: 78%;
+}
+
+.our-team .our-team-img h4 {
+    color: #fff;
+    font-size: 10px;
+}
+
+.our-team .our-team-img p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.our-team .our-team-img .our-team-icone {
+    margin: auto;
+    max-width: 80%;
+}
+
+.our-team .our-team-img .our-icone {
+    max-width: 100%;
+    margin: auto;
+}
+
+.our-paragh {
+    margin-top: 60px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* <!-- 000000000000000000000000000000000  footer 00000000000000000000000000000000000 --> */ 
+.footer {
+    width: 100%;
+    background-color: #7690c5;
+}
+
+.footer .contaienr .row .left-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .left-footer {
+    flex: 0 0 50%;
+    margin: 20px 0;
+}
+
+.footer .left-footer .footer-heading h1 {
+    color: #fff;
+    font-size: 50px;
+    /* text-align: center; */
+    font-weight: normal;
+}
+.footer .left-footer .footer-heading p{
+    font-size: 16px;
+}
+.footer .left-footer .footer-heading {
+    color: #fff;
+    font-size: 12px;
+    margin-left: 83px;
+}
+
+.footer .left-footer .footer-icone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 66px;
+}
+
+.footer .left-footer .footer-icone .fonter-icones {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+    color: #fff;
+}
+
+img {
+    padding: 0 10px;
+}
+
+.right-footer {
+    flex: 0 0 49%;
+    margin-top: 60px;
+}
+
+.right-footer .contact form .input-file {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: none;
+    outline: none;
+}
+
+#your-Massage {
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.footer-para {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    border-top: 1px dotted white;
+    margin-top: 30px
+}
+.footer-para p{
+    margin: 10px auto;
+}
+
+/* toggler */
+.header .menu-toggler {
+    display: none;
+    margin-right: 18px;
+}
+
+/* <!-- 000000000000000000000000000000000  responseive area 00000000000000000000000000000000000 --> */
+/* <!-- 000000000000000000000000000000000  @media quary area 00000000000000000000000000000000000 --> */
+@media (max-width: 767px) and (min-width: 320px) {
+    .header .row {
+        flex-direction: row;
+    }
+
+    .header {
+        padding: 20px 0 20px 10px !important;
+        position: relative;
+    }
+
+    .header .menu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        flex: 0 0 100%;
+        background-color: rgb(0, 0, 0);
+        margin-top: 20px;
+    }
+    .top-text .top-text-in-image{
+        height: 427px;
+    }
+    .header .menu ul {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .menu ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header .menu ul li a {
+        color: #ffffff;
+    }
+
+    .header .menu-toggler {
+        display: block;
+    }
+
+    .icone .container .row .main-fonts .heading-paragh h1{
+        text-align: center;
+        padding-bottom: 6px;
+        padding-top: 6px;
+    }
+    .icone .container .row .main-fonts .heading-paragh p{
+        text-align: center;
+    }
+    .row,
+    .header .menu ul {
+        flex-direction: column;
+    }
+    .main-section .img {
+    flex: 0 0 50%;
+    order: 2;
+}   .main-section .paragh{
+    flex: 0 0 100%;
+}
+    .wordpress-img img {
+        padding: 0px 10px;
+        max-width: 100%;
+    }
+    .clients-area .container .row .content .left-clients {
+        order: 2;
+    }
+    .clients-area .container .row .content .left-clients{
+        flex: 0 0 100%;
+        background-color: none;
+    }
+    .clients-area .container .row .content .left-clients .paragh-clients{
+        border: none;
+        background: none;
+    }
+    .our-paragh{
+
+    }
+    .footer .left-footer .footer-heading{
+        margin-left: 18px;
+        padding-bottom: 20px;
+    }
+    .footer .left-footer .footer-icone{
+        margin: 0 -37px;
+        justify-content: center;
+    }
+    .footer .left-footer .footer-icone .fonter-icones{
+        padding: 4px 0;
+    }
+    .right-footer{
+        margin-top: 0%;
+    }
+     /* <!-- 000000000000000000000000000000000  then end of the templet css and 00000000000000000000000000000000000 -->  */
